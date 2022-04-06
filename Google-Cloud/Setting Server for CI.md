@@ -83,7 +83,7 @@ sudo nano /etc/environment
 MAVEN_HOME="ваш_путь"
 ```
 ```shell
-echo $JAVA_HOME
+echo $MAVEN_HOME
 ```
 ```shell
 mvn -version 
