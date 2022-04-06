@@ -121,7 +121,7 @@ sudo apt-get --only-upgrade install google-chrome-stable
 ```shell
 Google Chrome 86.0.4240.198
 ```
-Download matching driver from [chromedriver repository](https://chromedriver.storage.googleapis.com/index.html)
+Download matching driver from [chromedriver repository](https://chromedriver.chromium.org/downloads)
 
 
 #### Allure installation for Linux:
