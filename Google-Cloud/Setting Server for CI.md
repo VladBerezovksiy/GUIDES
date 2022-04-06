@@ -72,23 +72,21 @@ sudo apt-get update
 ```shell
 sudo apt-get install jenkins
 ```
-### Download and configure maven
+### Download and configure Maven
 ##### Download and extract maven
 ```shell
-wget https://ftp.byfly.by/pub/apache.org/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz
-tar xzvf apache-maven-3.8.1-bin.tar.gz
+sudo apt install maven 
 ```
 ##### Setting maven path (In Permanent way)
-Edit ~/.bashrc and place below one line in that file and save the file.
 ```shell
-vi ~/.bashrc
+sudo nano /etc/environment
+MAVEN_HOME="ваш_путь"
 ```
 ```shell
-export PATH=/home/snap/maven/apache-maven-3.8.1/bin:$PATH
+echo $JAVA_HOME
 ```
-Restart terminal and check maven version
 ```shell
-mvn -v
+mvn -version 
 ```
 ```shell
 Maven home: /home/snap/maven/apache-maven-3.8.1
