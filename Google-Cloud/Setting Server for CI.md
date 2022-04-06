@@ -110,9 +110,13 @@ sudo apt install -y /tmp/chrome.deb
 ```shell
 sudo rm /tmp/chrome.deb
 ```
-check chrome version
+Сheck chrome version:
 ```shell
 google-chrome --version
+```
+Update chrome on last version:
+```shell
+sudo apt-get --only-upgrade install google-chrome-stable
 ```
 ```shell
 Google Chrome 86.0.4240.198
