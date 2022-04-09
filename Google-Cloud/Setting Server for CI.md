@@ -39,7 +39,7 @@ sudo apt-get install openjdk-11-jdk
 sudo update-alternatives --config java
 ```
 ##### Setting java path (In Permanent way)
-Edit ~/.bashrc and place below two lines in that file and save the file.
+Edit place below two lines in that file and save the file.
 ```shell
 sudo nano /etc/environment
 JAVA_HOME="ваш_путь"
@@ -116,19 +116,12 @@ google-chrome --version
 ```
 Update chrome on last version:
 ```shell
+sudo apt-get update
+```
+```shell
 sudo apt-get --only-upgrade install google-chrome-stable
 ```
 ```shell
 Google Chrome 86.0.4240.198
 ```
 Download matching driver from [chromedriver repository](https://chromedriver.chromium.org/downloads)
-
-
-#### Allure installation for Linux:
-Install allure to ubuntu
-```shell
-curl -o allure-2.13.8.tgz -OLs https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.13.8/allure-commandline-2.13.8.tgz
-sudo tar -zxvf allure-2.13.8.tgz -C /opt/
-sudo ln -s /opt/allure-2.13.8/bin/allure /usr/bin/allure
-allure --version
-```
