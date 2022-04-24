@@ -125,3 +125,31 @@ sudo apt-get --only-upgrade install google-chrome-stable
 Google Chrome 86.0.4240.198
 ```
 Download matching driver from [chromedriver repository](https://chromedriver.chromium.org/downloads)
+
+### Download and configure Allure
+Create folder for Allure:
+```shell
+mkdir allure
+cd allure
+```
+Download .zip file in folder:
+```shell
+sudo wget https://github.com/allure-framework/allure2/releases/download/2.17.2/allure-2.17.2.zip
+```
+Unzip file to install Allure:
+```shell
+sudo unzip allure-2.17.2.zip
+```
+Delete .zip file:
+```shell
+sudo rm allure-2.17.2.zip
+```
+Setting maven path (In Permanent way)
+```shell
+sudo nano /etc/environment
+ALLURE_HOME="ваш_путь"
+```
+Check that Allure installed:
+```shell
+allure --version
+```
