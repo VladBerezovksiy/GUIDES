@@ -71,6 +71,10 @@ sudo apt-get update
 ```shell
 sudo apt-get install jenkins
 ```
+Check that Jenkins is installed:
+```shell
+sudo systemctl status jenkins
+```
 ### Download and configure Maven
 ##### Download and extract maven
 ```shell
