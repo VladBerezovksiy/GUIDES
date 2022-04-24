@@ -32,9 +32,8 @@ sudo apt-get update
 sudo apt-get install openjdk-11-jdk
 ```
 
-### Set JAVA_HOME environment variable
-
-##### Find java location
+##### Set JAVA_HOME environment variable
+Find java location
 ```shell
 sudo update-alternatives --config java
 ```
@@ -95,7 +94,7 @@ Default locale: en_US, platform encoding: ANSI_X3.4-1968
 OS name: "linux", version: "4.15.0", arch: "amd64", family: "unix"
 ```
 
-#### Chrome installation for Linux:
+### Chrome installation for Linux:
 Download required version of chrome by link:
 https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_${CHROME_VERSION}_amd64.deb
 You'll need to replace ${CHROME_VERSION} by the specific version you want, which can
