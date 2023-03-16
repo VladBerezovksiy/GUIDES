@@ -78,7 +78,10 @@ sudo systemctl status jenkins
 ### Download and configure Maven
 ##### Download and extract maven
 ```shell
-sudo apt install maven 
+sudo apt update -y
+```
+```shell
+sudo apt install maven -y
 ```
 ##### Setting maven path (In Permanent way)
 ```shell
