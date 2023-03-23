@@ -108,7 +108,7 @@ You'll need to replace ${CHROME_VERSION} by the specific version you want, which
 be found [here](https://www.ubuntuupdates.org/package/google_chrome/stable/main/base/google-chrome-stable).
 For example version 86.0.4240.198-1:
 ```shell
-wget --no-verbose -O /tmp/chrome.deb https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_86.0.4240.198-1_amd64.deb
+wget --no-verbose -O /tmp/chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
 ```shell
 sudo apt install -y /tmp/chrome.deb
